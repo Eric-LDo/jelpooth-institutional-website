@@ -1,5 +1,6 @@
-
+"use client"
 import "./globals.css";
+import Header from "./components/Header"
 
 
 
@@ -10,7 +11,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>
+      <body className="dark:text-white text-black "
+      cz-shortcut-listen="true">
+        <Header/>
         {children}
       </body>
     </html>

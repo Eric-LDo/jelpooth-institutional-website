@@ -1,9 +1,9 @@
-import Image from "next/image";
+"use client"
 import Card from "./components/card";
-
+import Pages from "./components/Pages"
 export default function Home() {
   return (
-    <div className="font-sans">
+    <Pages>
       <section className="bg-red-500 w-screen h-screen">
 
       </section>
@@ -13,6 +13,6 @@ export default function Home() {
       <section className="bg-green-500 w-screen h-screen">
 
       </section>
-    </div>
+    </Pages>
   );
 }
