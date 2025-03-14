@@ -20,7 +20,7 @@ const Carousel = () => {
   };
 
   return (
-    <Slider {...settings} className='w-max-[100vh-20px] h-125'>
+    <Slider {...settings} className='w-max-[100vh-20px] h-125 relative'>
       {caroucelList.map((item, index) => (
         <div key={index} >
             <div className={styles.caroucelItem} style={{ backgroundImage: `url(${item.url})` }} />
