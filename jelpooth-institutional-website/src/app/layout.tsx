@@ -6,7 +6,7 @@ import { PrimeReactProvider } from 'primereact/api';
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="pt-br">
-      <body className="dark:text-white text-black " cz-shortcut-listen="true">
+      <body className="dark:text-white text-black dark:bg-gray-900" cz-shortcut-listen="true">
         <Header />
         {children}
       </body>

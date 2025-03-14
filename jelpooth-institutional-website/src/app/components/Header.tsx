@@ -1,3 +1,4 @@
+'use client'
 import { useState } from "react";
 import IconShine from "./IconShine";
 import "primeicons/primeicons.css";
@@ -15,9 +16,9 @@ const Header = () => {
         <IconShine />
         <nav className="hidden md:flex">
           <ul className="flex w-full justify-between gap-5 ">
-            {MenuItem.map((i) => {
+            {MenuItem.map((i, index) => {
               return (
-                <a href={i.path}>
+                <a key={index} href={i.path}>
                   <li className="h-full hover:border-blue-400 border-b-2 dark:border-black hover:cursor-pointer">
                     {i.nome}
                   </li>
