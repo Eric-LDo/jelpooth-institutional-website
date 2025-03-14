@@ -25,7 +25,7 @@ export const MenuItem:Item[] = [
     },
     {
         nome: 'Contatos',
-        path: '/page/contact'
+        path: '/page/contacts'
     }
 
 ]  
