@@ -10,7 +10,7 @@ const BlueSection = ({ children }: Props) => {
  
 
   return (
-    <section className="w-full h-auto">
+    <section className=" min-w-full h-auto">
       {children}
     </section>
   );

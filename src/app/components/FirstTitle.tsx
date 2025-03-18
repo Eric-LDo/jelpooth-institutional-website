@@ -32,7 +32,7 @@ const FirstTitle: React.FC<Props> = ({ children }) => {
         <br />
         {showSecondPart && (
           <ReactTyped
-            strings={['inovação', 'processos', 'empreendedorismo']}
+            strings={['inovação', 'processos', 'empreeder']}
             typeSpeed={50}
             backSpeed={50}
             loop 
