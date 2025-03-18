@@ -1,3 +1,4 @@
+'use client'
 import { motion } from "framer-motion";
 import { toolList } from "../data/ToolsItem";
 import Tools from "./Tools";

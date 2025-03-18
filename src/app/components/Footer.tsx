@@ -1,3 +1,4 @@
+'use client'
 const Footer = ()=>{
     const style:string = 'm-5 text-4xl text-shine'
     return(

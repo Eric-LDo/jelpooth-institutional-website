@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Motion from "@/app/components/Motion";
 import { Service } from "@/app/data/servicesCard";

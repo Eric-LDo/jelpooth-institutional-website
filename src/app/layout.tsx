@@ -1,7 +1,7 @@
-"use client";
+"use client"
 import "./globals.css";
 import Header from "./components/Header";
-import Footer from "@/app/components/Footer"
+import Footer from "./components/Footer"
 import { PrimeReactProvider } from 'primereact/api';
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {

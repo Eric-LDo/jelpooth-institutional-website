@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
+'use client'
 import React from "react";
-import { useInView } from "react-intersection-observer";
-import styles from './modules/blueSection.module.css';
+
 
 type Props = {
   children: React.ReactNode;

@@ -1,3 +1,4 @@
+'use client'
 import { useState, useRef } from 'react';
 import { Tool } from '@/app/data/ToolsItem';
 

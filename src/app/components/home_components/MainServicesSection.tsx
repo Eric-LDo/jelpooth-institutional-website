@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import BlueSection from "../BlueSection";
 import Services from "@/app/data/servicesCard";

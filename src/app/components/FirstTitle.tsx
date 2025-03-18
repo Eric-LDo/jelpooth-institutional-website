@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect } from 'react';
 import { ReactTyped } from "react-typed";
 import styles from './modules/FirstTitle.module.css';
