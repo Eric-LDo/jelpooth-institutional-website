@@ -5,7 +5,7 @@ type Props = {
 
 const Pages=({children}:Props)=>{
     return(
-        <div className="pt-12 w-screen h-auto h-min-screen font-sans dark:text-white">
+        <div className="flex flex-col pt-12 w-full h-auto h-min-screen font-sans dark:text-white">
             {children}
         </div>
     )

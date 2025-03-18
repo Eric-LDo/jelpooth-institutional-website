@@ -1,6 +1,7 @@
 "use client";
 import "./globals.css";
 import Header from "./components/Header";
+import Footer from "@/app/components/Footer"
 import { PrimeReactProvider } from 'primereact/api';
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
@@ -9,6 +10,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
       <body className="dark:text-white text-black dark:bg-gray-900" cz-shortcut-listen="true">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

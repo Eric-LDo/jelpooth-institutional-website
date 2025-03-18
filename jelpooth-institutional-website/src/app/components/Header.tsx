@@ -12,7 +12,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="bg-white dark:bg-black w-screen h-12 flex justify-between items-center fixed  shine z-50">
+      <header className="bg-white dark:bg-black w-full h-12 flex justify-between items-center fixed  shine z-50">
         <IconShine />
         <nav className="hidden md:flex">
           <ul className="flex w-full justify-between gap-5 ">
