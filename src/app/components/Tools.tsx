@@ -10,7 +10,7 @@ const Tools = ({ id, image, name, url }: Tool) => {
 
     return (
         <div            
-            className="flex flex-col justify-center items-center bg-gray-950 rounded-2xl m-2 min-w-40 p-3"
+            className="flex bg-white shadow-2xl flex-col justify-center items-center dark:bg-gray-950 rounded-2xl m-2 min-w-40 p-3"
             key={id}
             style={{ transform: `scale(${scale})` }}
         >

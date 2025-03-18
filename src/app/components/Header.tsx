@@ -12,14 +12,14 @@ const Header = () => {
   };
   return (
     <>
-      <header className="bg-white dark:bg-black w-full h-12 flex justify-between items-center fixed  shine z-50">
+      <header className="bg-gray-200 dark:bg-black w-full h-12 flex justify-between items-center fixed  shine z-50">
         <IconShine />
         <nav className="hidden md:flex">
           <ul className="flex w-full justify-between gap-5 ">
             {MenuItem.map((i, index) => {
               return (
                 <a key={index} href={i.path}>
-                  <li className="h-full hover:border-blue-400 border-b-2 dark:border-black hover:cursor-pointer">
+                  <li className="h-full hover:border-blue-400 border-b-2 dark:border-black border-gray-200 hover:text-blue-400 hover:cursor-pointer">
                     {i.nome}
                   </li>
                 </a>
@@ -61,12 +61,13 @@ const Header = () => {
         </button>
       </header>
       {isVisibleMenu ? (
-        <aside className="w-50 dark:bg-black h-screen fixed mt-12 p-2 md:hidden right-0 z-49">
+        <aside className="w-50 bg-gray-200 dark:bg-black h-screen fixed mt-12 p-2 md:hidden right-0 z-49">
           <ul className="">
             {MenuItem.map((i) => {
               return (
-                <a href={i.path}>
-                  <li className="h-full hover:border-blue-400 border-b-2 dark:border-black mb-3 hover:cursor-pointer flex justify-center ">
+                <a href={i.path}
+                className="h-full hover:border-blue-400 border-b-2 border-black  dark:border-white mb-3 hover:cursor-pointer flex justify-center hover:text-blue-400">
+                  <li >
                     {i.nome}
                   </li>
                 </a>
