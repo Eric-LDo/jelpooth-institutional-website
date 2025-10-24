@@ -6,17 +6,17 @@ import { useRef } from "react";
 
 const ScrollFrameworks = () => {
   
-  const duplicatedToolList = [...toolList, ...toolList];
+  const duplicatedToolList = [...toolList, ...toolList, ...toolList];
 
   return (
     <div className="overflow-x-hidden w-full">
       <motion.div
         className="flex flex-row"
-        animate={{ x: [-1000, 0] }} 
+        animate={{ x: [-2000, 0] }} 
         transition={{
           repeat: Infinity,
           repeatType: "loop",
-          duration: 20,
+          duration: 30,
           ease: "linear",
         }}
       >
