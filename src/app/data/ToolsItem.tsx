@@ -54,7 +54,7 @@ export const toolList: Tool[] = [
         id: 8,
         image: "postman.svg",
         name: "Postman",
-        url: "/assets/icons/knowledge/postman.png",
+        url: "/assets/icons/knowledge/postman.svg",
     },
     {
         id: 9,

@@ -3,7 +3,7 @@ import React from "react";
 import BlueSection from "../BlueSection";
 import Services from "@/app/data/servicesCard";
 import MainSectionCard from "./MainSectionCard";
-import Motion from "../Motion";
+  import Motion from "../Motion";
 
 const MainServicesSection: React.FC = () => {
   return (
