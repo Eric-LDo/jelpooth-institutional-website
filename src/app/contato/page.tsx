@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: "Contato", description: "Fale com a J
 
 export default function Contato() {
   const channels = [
-    { icon: MessageCircle, label: "WhatsApp", value: "Resposta mais rápida", href: whatsappLink("Olá! Vim pelo site.") },
+    { icon: MessageCircle, label: "WhatsApp", value: site.phone, href: whatsappLink("Olá! Vim pelo site.") },
     { icon: Mail, label: "E-mail", value: site.email, href: `mailto:${site.email}` },
     { icon: AtSign, label: "Instagram", value: "@jelpooth", href: site.instagram },
     { icon: Clock, label: "Atendimento", value: `Seg. a sex., 9h às 18h. Resposta em até ${site.responseTime}.` },

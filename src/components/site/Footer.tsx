@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h6>Fale com a gente</h6>
             <ul>
-              <li><a href={whatsappLink()} target="_blank" rel="noopener">WhatsApp</a></li>
+              <li><a href={whatsappLink()} target="_blank" rel="noopener">WhatsApp {site.phone}</a></li>
               <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
               <li>
                 <a href={site.instagram} target="_blank" rel="noopener">Instagram</a> ·{" "}
