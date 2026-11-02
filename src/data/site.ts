@@ -3,7 +3,7 @@
 export const site = {
   name: "Jelpooth",
   tagline: "Sites, aplicativos e sistemas sob medida, entregues em semanas.",
-  url: "https://jelpooth.com.br",
+  url: "https://institutional.jelpooth.com.br",
   email: "contato@jelpooth.com.br", // a confirmar
   whatsapp: "5517992547828", // DDI + DDD + número, só dígitos
   phone: "(17) 99254-7828",

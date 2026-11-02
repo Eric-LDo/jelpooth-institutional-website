@@ -121,7 +121,7 @@ export const projects: Project[] = [
     solution: "Home que se constrói na tela, animações ligadas à rolagem e um pedido de orçamento em poucos passos.",
     tags: ["Site institucional"],
     stack: ["Next.js", "GSAP", "Tailwind"],
-    url: "https://jelpooth.com.br",
+    url: "https://institutional.jelpooth.com.br",
     theme: "jel",
   },
 ];
